@@ -108,7 +108,9 @@ print("Keys in vehicle2:", vehicle2.keys())
 
 # - Create a function that takes in 3 parameters(firstname, lastname, age) and
 # returns a dictionary based on those values
-def create_person_dict(first: str, last: str, age: int) -> Dict[str, Union[str, int]]:
+def create_person_dict(
+    first: str, last: str, age: int
+) -> Dict[str, Union[str, int]]:
     return {"first": first, "last": last, "age": age}
 
 

@@ -1,5 +1,5 @@
 cost = 10
-tax_percent = .25
+tax_percent = 0.25
 tax = cost * tax_percent
 price = cost + tax
 print("Cost:", cost)
@@ -16,7 +16,7 @@ print("First Number:", first_num)
 print("Second Number:", second_num)
 
 first_num += 5
-print("Updated First Number:", first_num) 
+print("Updated First Number:", first_num)
 print("Second Number:", second_num)
 
 first_num = "I'm a string now... 🥲"
